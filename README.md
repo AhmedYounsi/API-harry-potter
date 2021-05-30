@@ -1,6 +1,6 @@
 # Node js API
 
-application Web fournit une interface API RESTful à des objets très détaillés construits à partir de milliers de lignes de données liées à Harry Potter saga
+This web app provides a RESTful API interface to highly detailed objects built from thousands of lines of data related to Harry potter
 
 #node js, express js, react js
 
