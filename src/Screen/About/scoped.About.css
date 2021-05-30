@@ -1,0 +1,154 @@
+.about{
+    background-color: #0a0f17;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding : 70px 250px;
+}
+.copy > img{
+    width: 45px;
+}
+.copy{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: none;
+    padding: 0;
+}
+.exemple{
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 1px solid grey;
+}
+.code{
+    position: relative;
+    padding: 15px 10px 15px 30px;
+    background: #151515;
+    font-size: 17px;
+    font-family: monospace !important;
+}
+.comment{
+    font-family: monospace;
+    color: #636363;
+}
+.code > .url {
+    color: #61dafb;
+    font-size: 17px;
+}
+.code > .get {
+    color: #af33ff;
+}
+li {
+    color: #eaeaea;
+    font-size: 17px;
+    font-family: "BluuNext";
+}
+.get_span{
+    background: #530088;
+    padding: 5px 8px;
+    border-radius: 10px;
+    margin: 4px;
+    color: #eaeaea;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.star_gif{
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    filter: opacity(0.08);
+    z-index: 0;
+    pointer-events: none;
+}
+.api{
+    margin:30px 0;
+    
+    width: 100%;
+}
+.about-title{
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 44px;
+    width: 100%;
+    font-size: 30px;
+    font-family: "BluuNext";
+}
+.about-text{
+    color: #969696;
+font-size: 20px;
+}
+.harry_span {
+    font-family: "ParryHotter";
+    font-size: 40px !important;
+    margin: 19px 9px 10px 10px;
+    color: #ffc543 ;
+    filter: drop-shadow(2px 4px 6px black);
+}
+.how{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.how > img{
+    width: 65px;
+    transform: translate(-3px, -10px);
+}
+.how > p {
+    font-size: 40px;
+}
+
+
+
+
+@media (max-width : 500px){
+    .how > p {
+        font-size: 30px !important;
+    }
+}
+
+@media (max-width : 1000px){
+    .about{
+        padding : 70px 100px !important;
+    } 
+}
+@media (max-width : 800px){
+    .about{
+        padding : 70px 50px !important;
+    } 
+}
+
+@media (max-width: 600px) {
+    .code{
+        padding: 10px;
+        font-size: 15px !important;
+
+    }
+    .about-title{
+        
+        font-size: 25px;
+       
+    } 
+    .about{
+        padding : 70px 20px !important;
+    }
+    .about-text{
+     
+    font-size: 16px !important;
+    }
+
+    .about-text > span {
+            font-size: 25px !important;
+   
+    }
+  }

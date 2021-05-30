@@ -1,0 +1,105 @@
+.Input-box-home {
+    z-index: 2;
+ 
+  display: flex;
+  justify-content: center;
+ 
+  align-items: center;
+  margin-top: 40px;
+}
+
+.route{
+    border: 1px solid #9c9c9c4f;
+    overflow: hidden;
+    border-radius: 15px 0 0 15px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.Input-box-home > .button {
+    height: 50px;
+    border: 1px solid #9c9c9c4f;
+    background: #9c9c9c4f;
+    border-radius: 0 15px 15px 0 ;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    width: 90px;
+    justify-content: center;
+    font-family: "BluuNext";
+    
+}
+.button:hover {
+  background: #9c9c9cad
+}
+
+
+
+
+.route> p {
+  font-family: BluuNext;
+  font-size: 20px;
+
+  padding: 0 10px;
+  background: #9c9c9c4f;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.Input-home {
+    width: 280px;
+    text-align: start;
+  font-family: "BluuNext";
+ 
+  background: transparent;
+  height: 45px;
+  font-size: 20px;
+
+  color: white;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+}
+
+@media (min-width: 500px) and (max-width : 650px) {
+    .Input-home {
+        width: 250px !important;
+       
+    }
+}
+
+@media (max-width : 500px) {
+    .Input-home {
+        width: 150px !important;
+       
+    }
+}
+
+
+@media (max-width: 600px) {
+    .Input-box-home > .button {
+        height: 40px;
+        margin-top: 15px;
+        border-radius: 15px;
+    }
+    .route{
+        border-radius: 15px !important;
+    }
+    .route> p {
+        font-size: 15px;
+    }
+    .Input-home {
+        
+ 
+        font-size: 15px !important;
+        height: 50px;
+    }
+    .Input-box-home{
+        flex-direction: column;
+    }
+}

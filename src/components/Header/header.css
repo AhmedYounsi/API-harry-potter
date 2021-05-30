@@ -1,0 +1,63 @@
+.Header {
+  height: 50px;
+  position: fixed;
+  background: #00000096;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 10;
+  top: 0;
+  border-bottom: 1px solid grey;
+ padding: 0 100px;
+}
+
+.icon_logo {
+  width: 40px;
+  filter: drop-shadow(2px 4px 6px black);
+  margin-right: 5px;
+  transform: rotateY(180deg);
+}
+
+.Logo {
+  padding: 0 15px !important;
+    margin-right: auto;
+}
+
+.Logo > p {
+  margin: 0;
+  font-family: "ParryHotter";
+  z-index: 1;
+  /* color: #c5911a; */
+  font-size: 35px;
+  -webkit-text-stroke: 0.001em #00000069;
+  filter: drop-shadow(6px 3px 2px black);
+}
+
+.Tab {
+  font-family: "BluuNext";
+  height: 100%;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  color: white;
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+.active {
+  background-color: #92929242;
+}
+
+
+
+@media (max-width: 600px) {
+  .Logo > p {
+  display: none;
+  }
+  .Header{
+    padding: 0;
+  }
+
+}

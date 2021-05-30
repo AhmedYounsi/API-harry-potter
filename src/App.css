@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "ParryHotter";
+  src:  
+    url("./fonts/HARRYP__.TTF") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "potter";
+  src:  
+    url("./fonts/Haryy.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "BluuNext";
+  src:  
+    url("./fonts/BluuNext-Bold.woff") format("truetype");
+  font-weight: normal;
+}
+
+.Title{
+  font-family: "ParryHotter";
+}
+
+.Img-send{
+  
+  width: 80px;
+    margin-top: 3px;
+    margin-left: 8px;
+    cursor: pointer;
+    filter: drop-shadow(2px 4px 6px black);
+}
+/* .Img-send:hover{
+  filter: ;
+} */
+
+.Input-box{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Input{
+  font-family: "BluuNext";
+  text-align: center;
+  background: transparent;
+    height: 45px;
+    padding-top: 6px;
+    font-size: 20px;
+    color: white;
+    width: 188px;
+    border: none;
+    padding-left: 10px;
+    outline: none;
+    border-bottom: 2px solid #727575;
+}
+.Link{
+  text-decoration: underline;
+    cursor: pointer;
+}
+
+.Link-content{
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+p {
+font-family: "BluuNext";
+margin: 0;
+}
