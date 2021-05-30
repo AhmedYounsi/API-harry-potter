@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+application Web fournit une interface API RESTful à des objets très détaillés construits à partir de milliers de lignes de données liées à Harry Potter saga
+
+#node js, express js, react js
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
