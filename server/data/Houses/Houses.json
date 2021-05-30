@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "Gryffindor",
+    "Founder": "Godric Gryffindor",
+    "Colors": "Scarlet and gold",
+    "Animal": "Lion",
+    "Element": "Fire",
+    "Ghost": "Nearly-Headless Nick",
+    "Common room": "Gryffindor Tower",
+    "Image": "Gryffindor.png"
+  },
+  {
+    "Name": "Slytherin",
+    "Founder": "Salazar Slytherin",
+    "Colors": "Green and silver",
+    "Animal": "Serpent",
+    "Element": "Water",
+    "Ghost": "Bloody Baron",
+    "Common room": "Slytherin Dungeon",
+    "Image": "Slytherin.png"
+  },
+  {
+    "Name": "Hufflepuff",
+    "Founder": "Helga Hufflepuf",
+    "Colors": "Yellow and black",
+    "Animal": "Badger",
+    "Element": "Earth",
+    "Ghost": "Fat Friar",
+    "Common room": "Hufflepuff Basement",
+    "Image": "Hufflepuff.png"
+  },
+  {
+    "Name": "Ravenclaw",
+    "Founder": "Rowena Ravenclaw",
+    "Colors": "Blue and bronze",
+    "Animal": "Eagle",
+    "Element": "Air",
+    "Ghost": "Grey Lady",
+    "Common room": "Ravenclaw Tower",
+    "Image": "Ravenclaw.png"
+  }
+]
