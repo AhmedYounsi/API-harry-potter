@@ -27,7 +27,7 @@ function Home(props) {
   const [Error, setError] = useState(null);
   const [Active, setActive] = useState("Characters");
   // eslint-disable-next-line
-  const [Heroku, setHeroku] = useState("https://api-hp.herokuapp.com/api");
+  const [URL, setURL] = useState("http://harrypotter-api.site/api");
   const [Loading, setLoading] = useState(false) 
 
   useEffect(() => {
@@ -42,14 +42,14 @@ function Home(props) {
     setLoading(true)
     setData([])
     axios
-      .get(`${Heroku}/${InputVal}`)
+      .get(`${URL}/${InputVal}`)
       .then((res) => {
         setLoading(false)
         console.log(res.data)
         setError(null);
 
         setData(res.data);
-        setResultLink(`${Heroku}/${InputVal}`);
+        setResultLink(`${URL}/${InputVal}`);
       })
       .catch(function (error) {
         setError("Resource not found");
@@ -62,13 +62,13 @@ function Home(props) {
     setLoading(true)
     setData([])
     axios
-      .get(`${Heroku}/${hint}`)
+      .get(`${URL}/${hint}`)
       .then((res) => {
         setLoading(false)
         setError(null);
         setData(res.data);
         setInputVal(hint);
-        setResultLink(`${Heroku}/${hint}`);
+        setResultLink(`${URL}/${hint}`);
       })
       .catch(function (error) {
         setLoading(false)
@@ -82,14 +82,14 @@ function Home(props) {
       <div className="header-home">
         {/* <img className="img-header"  src={'copie163.jpg'} alt="harry potter api send req" /> */}
         <h1 className="Home-title">Harry Potter API</h1>
-        <p className="title2">The RESTful Harry Potter API</p>
+        <h2 className="title2">The RESTful Harry Potter API</h2>
         <div className="transparent"></div>
       </div>
       <div className="try-it">
         <img
           className="thunder"
           src={"images/thunder.png"}
-          alt="get api haary potter wand"
+          alt="get api harry potter wand"
         />
         <img
           className="star"

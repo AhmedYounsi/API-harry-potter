@@ -51,7 +51,7 @@ function CodeApiExemple() {
       <strong style={{ color: "#ff6666" }}>const</strong> axios ={" "}
       <strong className="get">require</strong>('axios');<br/>
       <strong style={{ color: "#ff6666" }}>const</strong> URL ={" "}
-      <strong className="get">"https://api-hp.herokuapp.com"</strong> 
+      <strong className="get">"harrypotter-api.site"</strong> 
       <p className="comment" style={{ marginTop: 20 }}>
         {"//"}Make a request for a Spell with a given name
       </p>

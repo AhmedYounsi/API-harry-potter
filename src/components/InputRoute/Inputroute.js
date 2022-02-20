@@ -4,12 +4,12 @@ function Inputroute(props) {
     return (
         <div className="Input-box-home">
        <div className="route">
-       <p style={{ fontFamily: "BluuNext" }}>api-hp.herokuapp.com/api/</p>
+       <p style={{ fontFamily: "BluuNext" }}>harrypotter-api.site</p>
         <input
           value={props.InputVal}
           className="Input-home"
           onChange={(text) => props.send_input_val(text.target.value)}
-          placeholder="Exemple1/Exemple2"
+          placeholder="/Exemple1/Exemple2"
         />
 
        </div>
